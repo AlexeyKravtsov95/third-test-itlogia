@@ -1,4 +1,279 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020303;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.header-text-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 281px;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 29px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #ffaf18;
+    border-bottom: 1px solid #ffaf18;
+}
+
+.main .container {
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.main {
+    padding: 133px 0 80px 0;
+}
+
+.main-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 563px;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 30px;
+}
+
+.main h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    margin-bottom: 81px;
+}
+
+.main h1 .title-line {
+    display: block;
+    white-space: nowrap;
+}
+
+.main h1 .title-line span {
+    color: #ffaf18;
+}
+
+.main-info-items {
+    font-size: 0;
+    margin-bottom: 99px;
+}
+
+.about-info-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 99px;
+}
+
+.about-info-item:last-child {
+    margin-right: 0;
+}
+
+.info-item-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.info-item-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.button {
+    background-color: #ffaf18;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.button.button-choose-sushi {
+    padding: 23px 54px;
+    border-radius: 30px;
+    max-width: 224px;
+    margin-bottom: 154px;
+}
+
+.food {
+    padding: 120px 0 120px 0;
+}
+
+.food h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.about-food-items {
+    font-size: 0;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.about-food-item {
+    background-color: #fff;
+    width: 282px;
+    height: 354px;
+    text-align: center;
+    font-size: 0;
+    margin: 12px 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-food-item:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.about-food-item:first-child, .about-food-item:last-child {
+    border: #ffaf18 5px solid;
+}
+
+.about-food-image {
+    margin-bottom: 30px;
+}
+
+
+.about-food-title {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 17px;
+}
+
+.about-food-subtitle {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 50px;
+    width: 242px;
+    margin: 0 auto 15px auto;
+}
+
+.button.button-basket {
+    padding: 18px 82px;
+    border-radius: 25px;
+    max-width: 242px;
+}
+
+.chief {
+    padding: 120px 0 67px 0;
+}
+
+.chief-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 379px;
+}
+
+.chief-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 48px;
+}
+
+.about-chief-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    margin-bottom: 60px;
+}
+
+.about-chief-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.about-chief-roll {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.chief-icon {
+    font-size: 0;
+}
+
+.detail-icon {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 55px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.detail-icon:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.detail-icon img {
+    vertical-align: middle;
 }
