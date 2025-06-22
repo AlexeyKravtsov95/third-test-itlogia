@@ -53,6 +53,7 @@ body {
     color: rgb(253, 239, 213);
     line-height: 1.2;
     text-decoration: none;
+    padding-bottom: 6px;
 }
 
 .menu ul li a:hover {
@@ -62,7 +63,6 @@ body {
 
 .main .container {
     font-size: 0;
-    white-space: nowrap;
 }
 
 .main {
@@ -72,13 +72,13 @@ body {
 .main-info {
     display: inline-block;
     vertical-align: middle;
-    max-width: 563px;
+    max-width: 565px;
 }
 
 .main-image {
     display: inline-block;
-    vertical-align: bottom;
-    margin-left: 30px;
+    vertical-align: top;
+    margin-top: 67px;
 }
 
 .main h1 {
@@ -89,12 +89,7 @@ body {
     margin-bottom: 81px;
 }
 
-.main h1 .title-line {
-    display: block;
-    white-space: nowrap;
-}
-
-.main h1 .title-line span {
+.main h1 span {
     color: #ffaf18;
 }
 
@@ -132,24 +127,26 @@ body {
     font-size: 16px;
     color: rgb(2, 3, 3);
     font-weight: bold;
-    line-height: 3.438;
     cursor: pointer;
     text-decoration: none;
-}
-
-.button:hover {
-    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 17px;
+    border-radius: 25px;
+    text-align: center;
 }
 
 .button.button-choose-sushi {
-    padding: 23px 54px;
-    border-radius: 30px;
-    max-width: 224px;
-    margin-bottom: 154px;
+    width: 224px;
+    height: 60px;
+    padding: 21px
+}
+
+.button.button-choose-sushi:hover {
+    box-shadow: 0 0 5px 4px rgba(255,167,0,0.4);
 }
 
 .food {
-    padding: 120px 0 120px 0;
+    padding: 80px 0 120px 0;
 }
 
 .food h2 {
@@ -176,6 +173,8 @@ body {
     margin: 12px 12px;
     display: inline-block;
     vertical-align: top;
+    padding: 8px 16px;
+    border: 5px solid transparent;
 }
 
 .about-food-item:hover {
@@ -196,7 +195,7 @@ body {
     color: rgb(24, 26, 26);
     font-weight: bold;
     line-height: 1;
-    margin-bottom: 17px;
+    margin-bottom: 5px;
 }
 
 .about-food-subtitle {
@@ -209,9 +208,8 @@ body {
 }
 
 .button.button-basket {
-    padding: 18px 82px;
-    border-radius: 25px;
-    max-width: 242px;
+    height: 50px;
+    width: 100%;
 }
 
 .chief {
